@@ -4,6 +4,7 @@ Trivial backup script
 # Motivation
 I wanted to backup all my 'user' home dir with the following considerations:
 * I do not need to compress (enough of disk space today)
+* ... but I want to exclude some big files (Trash, pics, Downloads,.......)
 * But I do not want to backup some files every days (Pictures, Trash, ...)
 * I want to be able to access the snapshot without external software
 * I have many system users to backup
