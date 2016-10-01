@@ -25,7 +25,7 @@ Have a look and modify the `backup-excludes` file.
 ### Global backup
 Add the following entry in your root crontab:
 
-```0 2 * * * /usr/local/bin/all-users-backup.sh user1 user2 user3 ...```
+```@daily /usr/local/bin/all-users-backup.sh user1 user2 user3 ...```
 
 Of course you need to replace the user list
 
