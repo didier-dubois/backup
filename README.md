@@ -1,5 +1,5 @@
 # backup
-Trivial backup script
+Trivial backup script based on `rsync`
 
 # Motivation
 I wanted to backup all my 'user' home dir with the following considerations:
