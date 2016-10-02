@@ -8,7 +8,6 @@ I wanted to backup all my 'user' home dir with the following considerations:
 * I want to be able to access the snapshot without external software
 * I have many system users to backup
 
-The rolling history will be located onto `/home/backup/<user>`. 
 
 # Installation
 
@@ -18,6 +17,8 @@ Will copy the scripts in `/usr/local/bin`
 
 # Configuration
 Have a look and modify the `backup-excludes` file. 
+
+The rolling history will be located onto `/home/backup/<user>`. 
 
 # Usage
 2 options for you: global backup  or user backup
