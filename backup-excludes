@@ -10,3 +10,4 @@ tmp
 .dropbox
 .local/lib
 Trash
+node_modules
